@@ -1,0 +1,44 @@
+**Title:** Learn How To Create Save Files In Unity
+
+**Audience Level:** Beginner
+
+**Style:** How To
+
+**Pre Reqs:** Basic understanding of C# and comfortable with Inspector
+
+**Most Important Concepts:** JSON, Serialization, Player-Prefs, Creating a save file
+
+**Sample App Description:** A basic RPG battle where the stats of the battling units can be saved and loaded from a file (with player prefs used for high score & JSON for environment differences)
+
+**Game:** Battle Save
+
+**Outline:**
+
+  * Introduction
+  * Getting Started [How To + High-level Theory]
+    * Load main scene
+    * What are the options for saving games
+  * Important Concepts [Theory]
+    * Player-prefs
+    * Serialization
+    * Deserialization
+    * JSON
+  * Player Prefs & High Score [How To]
+    * Pros and cons of player prefs
+    * Sample run through battle
+    * Record high score
+    * Load high score
+  * Saving & The Unit Stats With Serialization [How To]
+    * Pros & Cons of serialization
+    * Battle mid way through the battle
+    * Save stats of battle
+    * Load stats of battle 
+  * Saving And Loading Levels From JSON[How To]
+  	* Create alternative environment for the battle
+  	* Load random environment when battle starts
+  	* Update save file to include what environment to use
+  * Where to go from here
+  	* Check out other tutorials
+  	* Look at scriptable objects
+  	* Plug for book mentioning chapter 14 which features loading levels from JSON
+  	* Check out C# programming guide/book to get better at writing your own code
